@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            top: 0;
+            left: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .Main {
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+        .Main2{
+            width: 100%;
+        }
+        .cargando {
+            background-image: url("https://images.vexels.com/media/users/3/137047/isolated/preview/5831a17a290077c646a48c4db78a81bb-icono-de-perfil-de-usuario-azul-by-vexels.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 15vw;
+            height: 15vw;
+            background-color: rgb(256, 256, 256);
+        }
+        h2 {
+            margin: 0;
+        }
+        @media(max-width:600px){
+            .cargando{
+                height: 20vh;
+                background-size: 20vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Main">
+        <p>Estas eliminando tu cuenta en nuestra pagina web registrada con este correo, ingresa el código en la pagina para
+            continuar con el proceso.</p>
+        <div class="Main2">
+            <div class="cargando"></div>
+        </div>
+        <h2>Tu código de verificación es <br>Learn- $replaceHere$</h2>
+        <p>Por favor no responda este correo, ya que se encarga únicamente de la difusión, si no es usted
+            ignore este mensaje.</p>
+    </div>
+</body>
+
+</html>
